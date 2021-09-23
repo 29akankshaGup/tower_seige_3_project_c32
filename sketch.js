@@ -62,6 +62,9 @@ function setup() {
 function draw() {
   if(backgroundImg)
     background(backgroundImg);  
+  stroke("blue");
+  
+  
   text("SCORE:"+score,100,50);
   Engine.update(engine);
 
