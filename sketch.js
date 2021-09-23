@@ -62,10 +62,6 @@ function setup() {
 function draw() {
   if(backgroundImg)
     background(backgroundImg);  
-  stroke("blue");
-  
-  
-  text("SCORE:"+score,100,50);
   Engine.update(engine);
 
   ground.display();
@@ -101,6 +97,9 @@ function draw() {
 
   //to display slingshot
   slingshot.display();
+  
+   stroke("blue");   
+  text("SCORE:"+score,100,50);
 
   }
 
